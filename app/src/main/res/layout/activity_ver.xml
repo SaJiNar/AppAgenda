@@ -19,8 +19,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:labelFor="@+id/viewNombre"
         android:inputType="textPersonName"
+        android:labelFor="@+id/viewNombre"
         android:textSize="24sp" />
 
     <TextView
@@ -34,8 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:labelFor="@+id/viewTelefono"
         android:inputType="phone"
+        android:labelFor="@+id/viewTelefono"
         android:textSize="24sp" />
 
     <TextView
@@ -49,8 +49,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:labelFor="@+id/viewCorreo"
         android:inputType="textEmailAddress"
+        android:labelFor="@+id/viewCorreo"
         android:textSize="24sp" />
 
     <Button
@@ -67,6 +67,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:clickable="true"
-        app:src="@drawable/ic_edit" />
+        android:src="@drawable/ic_edit" />
 
 </LinearLayout>
